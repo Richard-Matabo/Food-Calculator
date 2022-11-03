@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    background-color: #eee;
+    margin-bottom: 45px;
+}
+li {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+
+    background-color: rgb(211, 27, 27);
+    border: 1px solid rgb(211, 27, 27);
+    border-radius: 0px 25px;
+}
+fieldset{
+    text-align: center;
+    border-radius: 5px;
+   /* width: 50%; */
+    padding: 1em;
+}
+legend{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#textfield{
+    min-width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(160, 160, 160);
+    background-color: white;
+}
+
+#active{
+    background-color: rgb(31, 30, 30);
+    font-weight: normal;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 14px;
+}
+#clear,
+#adding,
+#division,
+#substruction,
+#multiplication{
+    background-color: rgb(31, 30, 30);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+input{
+    font-size: 20px;
+    width: 100px;
+    padding: 3px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(41, 40, 40);
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+}
+p{
+    font-size: 18px;
+    padding: 1em;
+}
+section{
+    display: inline-flex;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin-left: 10%;
+    width: 220px;
+    display: grid;
+    grid-area: 
+    "coke"
+    "tip-amount"
+    "total-bill"
+    "btn"
+
+    ;
+    grid-template-columns: 100px 1fr;
+    padding: 45px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+  
+}
+input{
+    padding: 5px;
+    margin: 3px;
+}
+fieldset{
+    border-radius: 10px 0px 0px 95px;
+    background-color:#eee;
+    width: 150px;
+}
+legend{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+    
+}
+#btn{
+    background-color: #555;
+    border: 1px solid #555;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 5px;
+}
+#btn:hover{
+    color: rgb(34, 34, 34);
+}

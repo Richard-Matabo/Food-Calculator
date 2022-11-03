@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="food.js"></script>
+    <title>Foods Calculator</title>
+</head>
+<body>
+
+    <h1>Bill Calculator</h1>
+
+    <section class="drinks">
+        <form name="calculator">
+            <fieldset>
+                <legend>Foods Calculator</legend>
+                <div class="buttons">
+                    <input type= "text" name="" id="textfield"><br> <br>                              
+                        <ul>
+                            <li>RICE</li>
+                            <li>CHIPS</li>
+                            <li>FISH</li>
+                            <li>TCHIKEN</li>
+                            <li>SPAGHETTI</li>
+                        </ul>
+                    <input type="button" value="R145.99" onclick = "prompt('You choose RICE, Price: R145.99')" onmousedown = "display('145.99')">              
+                    
+                    <input type="button" value="R89.89" onclick = "prompt('You choose CHIPS, Price: R89.89')" onmousedown = "display('89.89')"> 
+                    <input type="button" value="R98.99" onclick = "prompt('You choose FISH, Price: R98.99')" onmousedown = "display('98.99')"> 
+
+                    <input type="button" value="R203.40" onclick = "prompt('You choose TCHIKEN, Price: R203.40')" onmousedown = "display('203.40')"> 
+                    <input type="button" value="R76.40" onclick = "prompt('You choose SPAGHETTI, Price: R76.40')" onmousedown = "display('76.40')"><br>
+                    <p>How much would you like to tip?</p>
+                    
+                    <input type="button" id="clear" value="AC" onclick = "clearScreen()">
+                    <input type="button" id="adding" value="+" onclick ="display('+')">
+                    <input type="button" id="substruction" value="-" onclick ="display('-')">
+                    <input type="button" id="multiplication" value="x" onclick ="display('x')">                    
+
+                    <input type="button" id="division" value="/" onclick ="display('/')"><br>
+                    <input type="button" id="active" value="Calculate" onclick = "calculate()">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+</body>
+</html>
